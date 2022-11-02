@@ -1,0 +1,291 @@
+Skip to content
+Akinola Abdulakeem
+Businessman, Technologist & Marketing Extraordinaire
+My Companies
+About Me
+Blog
+Contact
+
+Chess Board Game using HTML and CSS
+Reads
+6,742
+Hi guys, based on the table method I taught you in HTML, we will create a beautiful chess board game.
+
+
+You might want to name your CSS file chess.css
+To understand what each line of CSS code is for, delete the code and then re-add it.
+
+Ask questions in the comment sections if you run into any issues.
+
+HTML
+
+COPY CODE
+<html>
+<head>
+<meta charset="UTF-8"> 
+<title>Chessboard using Pure CSS and HTML</title>
+<link rel="stylesheet" href="chess.css" type="text/css">
+</head>
+<body>
+<div class="chessboard">
+<!-- 1st -->
+<div class="white">&#9820;</div>
+<div class="black">&#9822;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9819;</div>
+<div class="white">&#9818;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9822;</div>
+<div class="black">&#9820;</div>
+<!-- 2nd -->
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<!-- 3th -->
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<!-- 4st -->
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<!-- 5th -->
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<!-- 6th -->
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<!-- 7th -->
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<!-- 8th -->
+<div class="black">&#9814;</div>
+<div class="white">&#9816;</div>
+<div class="black">&#9815;</div>
+<div class="white">&#9813;</div>
+<div class="black">&#9812;</div>
+<div class="white">&#9815;</div>
+<div class="black">&#9816;</div>
+<div class="white">&#9814;</div>
+</div>
+</body>
+</html>
+CSS
+COPY CODE
+body {
+    background: #e8e7de;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .chessboard {
+      width: 640px;
+      height: 640px;
+      margin: 20px;
+      border: 10px solid #000;
+      border-radius: 4px;
+  background: #e59110;
+  box-shadow:  5px 5px 8px #bebdb6,
+               -5px -5px 8px #ffffff;
+  }
+  .black {
+      float: left;
+      width: 80px;
+      height: 80px;
+      background-color: #e59110;
+        font-size:50px;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+  }
+  .white {
+      float: left;
+      width: 80px;
+      height: 80px;
+      background-color: #ffcfb6;
+      font-size:50px;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+  }
+Avatar photoAkinola Abdulakeem
+Founder & CEO of Swiftspeed Appcreator. I enjoy sharing my experiences in the digital world and helping businesses solve more problems with software development. Connect with me on LinkedIn @ Akinola Abdulakeem and Twitter @Kynsofficial
+
+Post navigation
+PREVIOUS
+A Beautiful wall clock made with only Neumorphism CSS
+NEXT
+Beautiful NFT Login Page using HTML & CSS
+20 Comments
+Michael says:
+Please are those icons represented also with code
+
+Reply
+Avatar photoAkinola Abdulakeem says:
+Hi, yes
+
+Reply
+Abisola says:
+How did you get to represent the icons with code
+
+Reply
+E - Coders says:
+1. White Chess King ♔
+Unicode : U+2654
+HTML Code : ♔
+2. Black Chess King ♚
+Unicode : U+265A
+HTML Code : ♚
+3. White Chess Queen ♕
+Unicode : U+2655
+HTML Code : ♕
+4. Black Chess Queen ♛
+Unicode : U+265B
+HTML Code : ♛
+5. White Chess Rock ♖
+Unicode : U+2656
+HTML Code : ♖
+6. Black Chess Rock ♜
+Unicode : U+265C
+HTML Code : ♜
+7. White Chess Bishop ♗
+Unicode : U+2657
+HTML Code : ♗
+8. Black Chess Bishop ♝
+Unicode : U+265D
+HTML Code : ♝
+9. White Chess Knight ♘
+Unicode : U+2658
+HTML Code : ♘
+10. Black Chess Knight ♞
+Unicode : U+265E
+HTML Code : ♞
+11. White Chess Pawn ♙
+Unicode : U+2659
+HTML Code : ♙
+12. Black Chess Pawn ♟
+Unicode : U+265F
+HTML Code : ♟
+
+Reply
+Olushola says:
+Hi sir, pls can you explain that, display: table-cell. Thank you
+
+Reply
+Kingz says:
+You’re the BOSS!!!
+
+Reply
+Aderele says:
+I’m so new to coding and I really need help from the beginning
+
+Reply
+Adetayo says:
+My question isn’t pertaining to this,concerning the project/assignment you gave that you gave a layout,pls how do I add an image to the css
+
+Reply
+Maedu says:
+If you mean like a background image, you can use the
+Background: URL();
+
+However, to understand better, you can read here: https://www.w3docs.com/snippets/css/how-to-add-background-image.html
+
+Reply
+Adeyanju Temiloluwa says:
+Hi, I’m Temi, I am not your student, or at least not yet, but I must commend you its a great work you are doing.
+
+I came here from twitter.ng after your tweet about the chessboard, I’m just start this journey of tech, still in the early days of learning html and CSS and seeing what you’ve done, I can only say you are such a motivation to me.
+
+Hence, I’m following you closely to steal from those wealth of writing codes.
+Namaste.
+
+P.s: the html and CSS aren’t linking o, but I still dey find the bug, make i follow am drag am small first
+
+Reply
+Ibukunoluwa says:
+Try checking the css link reference if it’s properly linked in the HTML
+
+Reply
+Queenesther says:
+Hey teacher, I have been trying to change the background colour, but I seem not to be getting it. Pls put me through.
+
+Reply
+Ibukunoluwa says:
+My chessboard isn’t coming out in box pieces rather it’s coming in columns, what could be the problem?
+
+Reply
+Amara says:
+Please how did you get the icons
+
+Reply
+Avatar photoAkinola Abdulakeem says:
+Search html icon codes in Google search for clearer understanding
+
+Reply
+Erikefe says:
+great work
+
+Reply
+Ishaku Godwill says:
+Nice job sir, but the pawns icons on the black side are similar to the icon of the bishop, the pawns should be represented using #&9827
+
+Reply
+linus chinonso says:
+you can link your html and css using
+
+Reply
+Sprichnorlinks says:
+http://127.0.0.1:5500/chess.html
+
+Reply
+Pingback: «Comment utiliser HTML et CSS pour concevoir une carte d'échecs» Code de la réponse - Coder les réponses
+Leave a Reply
+Your email address will not be published. Required fields are marked *
+
+Leave a comment...
+Comment *
+
+John Doe
+Name *
+
+john@example.com
+Email *
+
+https://www.example.com
+Website
+
+
+Save my name, email, and website in this browser for the next time I comment.
+
+© 2022 Akinola Abdulakeem
